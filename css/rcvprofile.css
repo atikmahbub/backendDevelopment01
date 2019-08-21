@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+@import url('https://fonts.googleapis.com/css?family=Judson:700');
+.userprofile{
+	flex-basis: 45%;
+	border-radius: 5px;
+	height: 400px;
+	 padding: 10px;
+	 box-sizing: border-box;
+	 background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+	 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	
+}
+
+
+.pro{
+
+	/* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	width: 100%;
+	height: 100px;
+
+	}
+
+.pro p{
+	padding-top: 20px;
+	margin-left: 42%;
+	letter-spacing: 5px;
+}
+button{
+
+  height: 45px;
+ position: relative;
+ top: -80px;
+  
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #383736;
+  border: 2px #383736 solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+ 
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+	}
+	button:hover {
+  color: whitesmoke;
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  background: #383736;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+button:hover:before {
+  top: 0;
+}
+
+.rpname{
+	margin-left: 5%;
+	margin-top: 5%;
+	font-family: 'Lilita One', cursive;
+	font-size: 40px;
+}
+.gender,.email,.phone,.edit{
+	
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: 'Cantora One', sans-serif;
+
+}
+i{
+	margin-right: 4%;
+}
+.edit{
+	margin-top: 30%;
+}
+.rights{
+	flex-basis: 45%;
+	height: 400px;
+	 box-sizing: border-box;
+	border-radius: 5px;
+	
+	
+
+}
+@media (min-width: 900px) {
+  .userpro{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.search{
+	margin-top: 20px;
+	font-family: 'Eczar', serif;
+	font-size: 30px;
+}
+
+.rights button {
+  
+	
+  margin-top: 10px;
+  border:0;
+  border-top:1px solid #f0a18b;
+  border-radius:3px;
+  background:#e76744;
+  width:180px;
+  height:45px;
+  color:#fff;
+  font-size:20px;
+  font-family:'Ubuntu';
+  
+  -moz-box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 1px 1px #000;
+}

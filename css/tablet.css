@@ -1,0 +1,26 @@
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px)  {
+
+ .carousel-item {
+  height: 80vh;
+  min-height: 200px;
+}
+
+.modal-content .container{
+	width: 100% !important;
+}
+#registerSection input[type=tele],#registerSection input[type=text],#registerSection input[type=password]{
+  width:90% !important;
+  height:45px !important;
+}
+#id01 input{
+	
+	margin-left: 10px !important;
+}
+#gen{
+	visibility: hidden;
+}
+
+}

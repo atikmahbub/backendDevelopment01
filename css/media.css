@@ -1,0 +1,70 @@
+@media only screen and (max-width: 700px) {
+ .carousel-item {
+  height: 60vh;
+  min-height: 200px;
+}
+.modal-content {
+  width: 100% !important; /* Could be more or less, depending on screen size */
+   
+}
+.modal-content .container{
+	width: 100% !important;
+}
+
+#signUpSection input[type=text],#signUpSection input[type=password] {
+  width:90% !important;
+  height:50px !important;
+}
+#registerSection input[type=tele],#registerSection input[type=text],#registerSection input[type=password]{
+  width:90% !important;
+  height:45px !important;
+}
+
+#id00 input{
+width:90% !important;
+height:40px !important;
+margin-left: 25px !important;
+padding-left: 10px !important;
+}
+#id00{
+	margin-top: 30px !important;
+}
+#id01 input{
+	height: 50px !important;
+	margin-left: 20px !important;
+}
+#id01 .modal-content{
+	height: 80% !important;
+}
+#id00 .form-group{
+	width: 100% !important;
+	height: 80% !important
+}
+#test{
+	margin-top: 15px !important;
+}
+#id00 input[type=checkbox]{
+  width:90% !important;
+  height:20px !important;
+}
+.checkbox{
+	display: flex !important;
+
+}
+.modal-content button{
+	margin: auto !important;
+}
+#id01 input[type=checkbox]{
+	margin-left: 12px !important
+}
+#id01 .input:after{
+ 
+ 	border-right:1px solid !important;
+ 	border-color: #242c32;
+ 	border-radius:2px;
+}
+.genderdis{
+	margin-left: 15px !important;
+}
+
+}

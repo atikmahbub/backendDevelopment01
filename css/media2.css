@@ -1,0 +1,26 @@
+@media only screen and (max-width: 700px) {
+#id01 .input:after{
+ 	content:"";
+ 	position: relative;
+	left: 308px !important;
+	bottom: 60px;
+ 	border-right:10px solid;
+ 	border-color: #242c32;
+ 	border-radius:2px;
+}
+.border-color:after{
+  border-color:#e76744 !important;
+  transition:.7s;
+}
+  .flexleft, .flexright{
+  	height: 350px !important;
+  	width: 100% !important;  	
+  }
+.genderup{
+	margin-left: 40px !important;
+}
+#gen{
+	visibility: hidden;
+}
+
+}

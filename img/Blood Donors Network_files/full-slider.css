@@ -1,0 +1,601 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+	font-family: 'Cantora One', sans-serif;
+}
+
+.navbar li{	 
+	padding-left: 34px;
+	display: block;
+	font-size: 17px;
+	font-family: 'Cantora One', sans-serif;
+	text-decoration: none;	
+
+}
+.brandcolor{
+	margin-left: 5px;
+	letter-spacing: 2px;
+	background-color: red;
+	border-radius: 5px;
+}
+
+}
+.navbar-nav li > a {	
+	color: white;
+	 display: block;
+    position: relative;
+    text-decoration: none;
+}
+.navbar-brand{
+	color: white;
+}
+
+
+ .navbar-nav li > a:hover{
+  border-top: 1px solid red;
+  border-radius: 9px;
+   border-bottom: 1px solid red;
+ transition: all 400ms ease;
+
+   }
+
+.navbar .nav-link.active {
+  color: #fff !important;
+  background: #c41316;
+  border-radius: 4px;
+  transition: all 900ms ease; 
+}
+
+
+.heading{
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Cantora One', sans-serif;
+
+}
+
+.service{	
+	letter-spacing: 10px;
+
+}
+
+.reg{
+	max-width: 1400px;
+	margin: 40px auto 40px auto;	
+}
+
+.signUp{
+
+	flex-basis: 30%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	 padding: 20px;
+	 background-color: #595959;
+	 margin-bottom: 5px;
+	 
+}
+
+ div > .title{
+	color: white;
+	margin-left: 15px;
+	font-family: 'Cantora One', sans-serif;
+	
+}
+
+.signIn{
+	border-radius: 5px;
+	flex-basis: 30%;
+	box-sizing: border-box;
+	 padding: 20px;
+	 background-color: #595959;
+	  margin-bottom: 5px;
+}
+
+.needBlood{
+	border-radius: 5px;
+	flex-basis: 30%;
+	box-sizing: border-box;
+	 padding: 20px;
+	 background-color: #595959;
+}
+
+.register button{
+	margin-top: 90px;
+
+}
+
+@media (min-width: 900px) {
+  .reg{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .aboutmain{
+  	display: flex;
+	justify-content: space-around;
+	
+  }
+}
+.formbmi form{
+
+	margin:50px auto 50px auto
+}
+
+.inline1{
+	float: left;
+}
+
+.inline2{
+	float:left;
+}
+
+.avail{
+	display: flex;
+	margin-top: 70px;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+
+}
+
+@media (max-width: 700px) {
+  
+  .flexleft, .flexright{
+  	height: 350px !important;
+  	width: 100% !important;  	
+  }
+}
+
+.flexleft{
+  display: flex;
+  height: 350px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;  
+  width: 37%;
+  justify-content: space-around;
+  position: relative;
+  left: -20px;
+}
+
+.flexCentre{
+	width: 30%;
+}
+.flexright{
+
+  width: 37%;
+  display: flex;
+  height: 350px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: space-around;
+  position: relative;
+  right: -15px;
+}
+
+.flexleft > div {
+  display: flex;
+  background-color: #5d605d;  
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  justify-content: space-between;
+}
+
+.flexright > div {
+  display: flex;
+  background-color: #5d605d;  
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  justify-content: space-between;
+}
+.donor{
+	margin :auto;
+	font-family: 'Fredoka One', cursive;
+	
+	font-size: 35px;
+	color: white;
+}
+.bloodName{
+	background-color: #f22b4f;
+	width:80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	font-weight: bold;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.flexCentre{
+	width:300px;
+	height: 300px;
+	text-align: center;
+	margin: auto;
+	background-color: #b72828;
+	border-radius: 50%;
+}
+.centre-me{
+
+ 	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+	font-size: 35px;
+    margin-top: 20%;
+    color: #333;
+    letter-spacing: 10px;
+  
+}
+.cnumber{
+	font-size: 55px;
+	font-family: 'Berkshire Swash', cursive;
+	color:white;
+}
+
+.aboutmain{
+	margin-top: 50px;
+	
+	
+	justify-content: space-around;
+}
+.first{
+	flex-basis: 30%;
+}
+.second{
+	flex-basis: 30%;
+}
+.third{
+	flex-basis: 30%;
+}
+hr{
+    border:none;
+    height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid red;
+	box-shadow: 0 20px 20px -20px #333;
+  	margin: -50px 0px 30px; 
+
+}
+ul{
+	list-style-type:square;
+}
+/* Full-width input fields */
+.modal input[type=text],.modal input[type=password] {
+  width:300px;
+  height:65px;
+  background:#242c32;
+  border:0;
+  border-radius:3px;
+  border-bottom:1px solid #646c72;
+  outline:0;
+  padding-left:30px;
+  font-family:'Ubuntu'; 
+  color:#fff;
+  margin-bottom:10px;
+}
+#id01 .input:after{
+ 	content:"";
+ 	position: relative;
+	left: 290px;
+	bottom: 76px;
+ 	border-right:10px solid;
+ 	border-color: #242c32;
+ 	border-radius:2px;
+}
+.border-color:after{
+  border-color:#e76744 !important;
+  transition:.7s;
+}
+
+.orangestop{
+  color: red!important;
+}
+/* Set a style for all buttons */
+.modal button {
+  
+  margin-top:20px;
+  margin-left:50px;
+  border:0;
+  border-top:1px solid #f0a18b;
+  border-radius:3px;
+  background:#e76744;
+  width:202px;
+  height:65px;
+  color:#fff;
+  font-size:26px;
+  font-family:'Ubuntu';
+  -webkit-text-shadow: 0px 1px 1px #000;
+  -moz-text-shadow: 0px 1px 1px #000;
+  text-shadow: 0px 2px 1px #000;
+  -webkit-box-shadow: 0px 1px 1px #000;
+  -moz-box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 1px 1px #000;
+}
+
+.modal button:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 0px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background:url("../img/last3.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  height: 100%;
+  width: 50%; /* Could be more or less, depending on screen size */
+   
+}
+.modal-content h1{
+  width:100%;
+  margin: auto;
+  text-align:center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  font-size: 34px !important;
+  color:#fff;
+  letter-spacing:4px;
+  padding:10px 0 20px 0;
+}
+.modal-content .container{
+	margin:auto;
+	width: 50%;
+	border-radius:3px;
+  	border-top:1px solid #464c4c;
+	background: rgb(26,34,37);
+  background: -moz-linear-gradient(top,  rgba(26,34,37,.96) 0%, rgba(75,87,94,0.96) 65%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,34,37,.96)), color-stop(65%,rgba(75,87,94,.96)));
+  background: -webkit-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: -o-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: -ms-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: linear-gradient(to bottom,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#4b575e',GradientType=0 );
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+.divider{
+  width:100%;
+  height:3px;
+  background:#2b3741;
+  border-bottom:1px solid #68777f;
+  clear:both;
+  margin-top:30px;
+}
+.sup{
+  color:#fff;
+  width:100%;  
+  font-size:17px;
+  font-family:'Ubuntu';
+ }
+
+.re{
+  color:#e67633;
+}
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#id00 .modal-content{
+	background-image: url("../img/last3.jpeg");
+} 
+
+#id00 .modal-content {
+
+  margin: 5% auto 0px auto; /* 5% from the top, 15% from the bottom and centered */
+  height: 100%;
+  width: 80%; /* Could be more or less, depending on screen size */
+   
+}
+#id00 .modal-content .container{
+	margin:auto;
+	width: 80%;
+	height: 100%;
+	border-radius:3px;
+  border-top:1px solid #464c4c;
+	background: rgb(26,34,37);
+  background: -moz-linear-gradient(top,  rgba(26,34,37,.96) 0%, rgba(75,87,94,0.96) 65%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,34,37,.96)), color-stop(65%,rgba(75,87,94,.96)));
+  background: -webkit-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: -o-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: -ms-linear-gradient(top,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  background: linear-gradient(to bottom,  rgba(26,34,37,.96) 0%,rgba(75,87,94,.96) 65%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#4b575e',GradientType=0 );
+}
+
+#signUpSection input[type=text],#signUpSection input[type=password] {
+  width:80%;
+  height:80px;
+  margin-left: 50px;
+
+  background:#242c32;
+  border:0;
+  border-radius:3px;
+  border-bottom:1px solid #646c72;
+  outline:0;
+  padding-left:30px;
+  font-family:'Ubuntu'; 
+  color:#fff;
+  margin-bottom:10px;
+}
+
+
+
+
+
+#id00 label {
+
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700px;
+	color: #e8dee1;
+	
+}
+.gen{
+	width: 100px;
+}
+
+#id00.modal button {
+  
+ margin-left: 37%;
+
+
+  border:0;
+  border-top:1px solid #f0a18b;
+  border-radius:3px;
+  background:#e76744;
+  width:202px;
+  height:65px;
+  color:#fff;
+  font-size:20px;
+  font-family:'Ubuntu';
+  -webkit-text-shadow: 0px 1px 1px #000;
+  -moz-text-shadow: 0px 1px 1px #000;
+  text-shadow: 0px 2px 1px #000;
+  -webkit-box-shadow: 0px 1px 1px #000;
+  -moz-box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 1px 1px #000;
+}
+
+#id02 .modal-content{
+	background-image: url("../img/last3.jpeg");
+} 
+#registerSection input[type=tele]{
+	width:300px;
+  height:65px;
+  background:#242c32;
+  border:0;
+  border-radius:3px;
+  border-bottom:1px solid #646c72;
+  outline:0;
+  padding-left:30px;
+  font-family:'Ubuntu'; 
+  color:#fff;
+  margin-bottom:10px;
+}
+#id02.modal button {
+  
+	margin-bottom: 13px;
+  margin-left:50px;
+  border:0;
+  border-top:1px solid #f0a18b;
+  border-radius:3px;
+  background:#e76744;
+  width:202px;
+  height:65px;
+  color:#fff;
+  font-size:26px;
+  font-family:'Ubuntu';
+  -webkit-text-shadow: 0px 1px 1px #000;
+  -moz-text-shadow: 0px 1px 1px #000;
+  text-shadow: 0px 2px 1px #000;
+  -webkit-box-shadow: 0px 1px 1px #000;
+  -moz-box-shadow: 0px 1px 1px #000;
+  box-shadow: 0px 1px 1px #000;
+}
+ 
+
+ /* Profile Page Start */
+ 
+
+ /* echo "
+  <div class='mini'>
+<form method='POST'>
+ Email:<input type='text' name='usname'>
+  Password:<input type='text' name='upass'>
+  <input type='submit'>
+</form>
+</div>
+";
+*/

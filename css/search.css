@@ -1,0 +1,71 @@
+
+
+body{
+    		background: url(../img/searc1.jpeg);
+    		background-size: cover ;
+    		background-attachment: fixed;
+    	}
+
+
+h1{
+    	font-family: 'Cantora One', sans-serif;
+    	letter-spacing: 10px;
+		color: white;
+        margin: auto;
+
+}
+p{
+    		
+    	color: white;
+}
+.row{
+    	margin-top: 30px;
+}
+
+table {
+    margin:50px auto auto auto;
+    border-radius: 5px;
+    width: 90%;
+    table-layout: fixed;
+    overflow: hidden;
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  
+  
+}
+
+tr:nth-child(even){background-color:#eaecef}
+tr:nth-child(odd){background-color: white}
+
+th {
+    text-align: center;
+      font-family: Montserrat-Medium;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+   background-color: #ba1414;
+    line-height: 2.4;
+}
+td{
+      font-family: Montserrat-Regular;
+  font-size: 20px;
+  color: black;
+  line-height: 2.4;
+ text-align: center;
+}
+
+button{
+    margin-left: 50%;
+}
+.empty{
+    height: 100px;
+}
+.heading1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cantora One', sans-serif;
+
+}

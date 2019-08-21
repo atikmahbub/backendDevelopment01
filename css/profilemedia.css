@@ -1,0 +1,67 @@
+@media only screen and (max-width: 700px) {
+
+.cardfelx{
+	display: flex !important;
+	flex-direction: column !important;
+	width: 100% !important;
+	height: 100% !important;
+	justify-content: space-between;
+
+}
+.leftcard{
+	width: 100% !important;
+	height: 100% !important;
+	margin-bottom: 40px !important;
+
+}
+.rightcard{
+	width: 100% !important;
+	height: 100% !important;
+	}
+.pro p{
+	font-size: 28px !important;
+	position: relative !important;
+	right: 62px !important;
+}
+.pro button{
+	font-size: 8px !important;
+	width: 20% !important;
+	height: 32px !important;
+	margin-top: 19px !important;
+	
+}
+.upbutton{
+	float: right !important;
+	position: relative;
+	left: 15px !important;
+	margin-top: 24px !important;
+	font-size: 15px !important;
+	
+	
+}
+#demo{
+	margin-top: 55px !important;
+}
+.availableCheck p{
+	position: relative !important;
+	left: 60px !important;
+}
+.switch{
+		position: relative !important;
+	left: 70px !important;
+}
+fieldset {
+
+  border: medium none !important;
+  width: 100% !important;
+}
+.uppro h1{
+	
+	font-size: 25px !important;
+}
+   #collapse1{
+    width: 100% !important;
+    margin-left: 2% !important;
+
+   }
+}

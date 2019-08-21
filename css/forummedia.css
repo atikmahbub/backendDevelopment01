@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) {
+.comment-box h3,h4{
+		margin-left:60% !important;
+}
+.forum h1,i{
+	font-size: 30px !important;
+}
+.comment-box{
+	width:97% !important;
+}
+.forump form{
+	width: 90%;
+
+}
+.thread button{
+	position: relative !important;
+	right: 70px !important;
+}
+#forumlogged {
+	font-size: 10px !important;
+	margin-left: -5px !important
+}
+
+.comment h1{
+	font-size: 25px !important
+}
+}

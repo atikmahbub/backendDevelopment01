@@ -13,7 +13,8 @@
 
     <title>Blood Donors Network</title>
 
- 
+    <script src="/code4pt/styles/js/bootstrap.js"></script>
+  <script src="/code4pt/styles/js/jquery.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">

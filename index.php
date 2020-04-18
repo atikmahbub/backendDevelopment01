@@ -4,7 +4,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -13,8 +13,7 @@
 
     <title>Blood Donors Network</title>
 
-    <script src="/code4pt/styles/js/bootstrap.js"></script>
-  <script src="/code4pt/styles/js/jquery.js"></script>
+ 
    <link href="https://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -23,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstra‌​p.min.css" rel="stylesheet">
+    <link href="{{ secure_asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
    
     <!-- Custom styles for this template -->
     <link media="all" href="css/full-slider.css" rel="stylesheet" />
